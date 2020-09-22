@@ -1,7 +1,9 @@
 # QuizApp
 
 ## Quiz App Overview
-Quiz App is a Teams Power Apps designed for end users to facilitate learning, gaining, and improving their knowledge skills. At the meantime, our app provides them fun so that the users can take short quizzes using portable devices such as smart phones and tablets accessing through Teams canvas.It is also a simple and interactive application and useful for the preparation of any field test. In this app, questions are given along with four choices, and at the end, the correct answer is also displayed. After preparation, one can check their level of know-how on the subject through the quiz.
+Quiz App is a Teams Power Apps designed for end users to facilitate learning, gaining, and improving their knowledge skills. At the meantime, our app provides them fun so that the users can take short quizzes using portable devices such as smart phones and tablets accessing through Teams canvas.
+<br>
+It is also a simple and interactive application and useful for the preparation of any field test. In this app, questions are given along with four choices, and at the end, the correct answer is also displayed. After preparation, one can check their level of know-how on the subject through the quiz.
 
 ## Core Scenario
 ### Home: 
@@ -36,6 +38,23 @@ and click on create.
 1. Add below columns under Incentives list:
 
 _**Note:** While creating each list, no need to add "Title" column, because SharePoint will automatically create that column_
+
+Name of Column     | Type                | Comment
+------------------ | --------------------| --------------------------------------
+Title              | Single line of text | Auto generated unique id by SharePoint
+Name	| Single line of text	| Incentive name (upto 30 characters)
+Points	| Number	Incentive points (upto 4 characters)
+IncentiveCode	Single line of text	Alpha numeric value provided by admin. For e.g. INC1231(upto 10 characters)
+CreatedBy	Single line of text	User object identifier GUID provided by Office 365 connector
+CreatedOn	Date	Incentive created date time stamp
+DueDate	Date	Incentive expiration date time stamp provided by admin
+IsIncentiveLive	Boolean	Flag to check if incentive is available
+UpdatedBy	Single line of text	User object identifier GUID provided by Office 365 connector
+UpdatedOn	Date	Last updated date time stamp
+
+Content in the first column | Content in the second column
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 1. Repeat the steps to create a new list with name UserQuizSummary
 1. Add below columns under UserQuizSummary list:
