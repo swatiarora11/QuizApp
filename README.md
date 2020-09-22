@@ -7,19 +7,18 @@ It is also a simple and interactive application and useful for the preparation o
 
 ## Core Scenario
 ### Home: 
-This is the app landing page that is displayed to the users once they login to the app.
+This is app landing page that is displayed to the users once they login to the Quiz App.
 <p> <img src="images/image001.jpg" />
 
 ### View Instructions: 
-On the Home page, the user is asked to view the Quiz instructions.
-
-End User can view the Quiz instructions and then clicking on “Take Quiz” will directly take them to Questions Screen.
+By clicking "View Quiz Instructions" on the Home page, user can view quiz instructions.
+<p> <img src="images/image002.jpg" />
 
 ### Take Quiz: 
-End-user clicks on the “Take Quiz” button to go to the Questions Screen. Every Question will be multiple choice Question where the user can select the answer by clicking on the radio button. Correctness of the answer will be displayed to the user once he makes his choice.
+When end-user clicks on the “Take Quiz” button, he can see questions of the quiz. Every question will be a multiple choice question where user can select the answer by clicking on radio button corresponding to the option. Feedback on correctness of the answer will be displayed on the questions screen to the user once he makes his choice and submits the selected option.
 
 ### End Quiz: 
-Once the user submits the Quiz. Total score and his email id will be displayed which will be recorded in the share point site.
+On submission of the quiz by clicking "Submit Quiz" button, Total Score of the user along with his email and full name will be displayed and same will also be recorded in a share point site.
 
 ## Deployment guide
 ### Prerequisites
