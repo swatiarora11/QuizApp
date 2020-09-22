@@ -8,6 +8,7 @@ It is also a simple and interactive application and useful for the preparation o
 ## Core Scenario
 ### Home: 
 This is the app landing page that is displayed to the users once they login to the app.
+<img src="images/image001.jpg" />
 
 ### View Instructions: 
 On the Home page, the user is asked to view the Quiz instructions.
