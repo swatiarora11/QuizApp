@@ -42,9 +42,9 @@ Follow the below steps to create this list from the Excel file -
 The list should now look as shown below – Select **Next** once this is done.<p> <img src="images/image009.png" />
 1. Set a **Name and Description** for the quiz. You may also set a color and icon (Optional)<p> <img src="images/image010.jpg" />
 1. In the **Save To** option, we now need to point to the **Quiz” Site** (which was created in **Step 1**) where this list must be deployed. Select this and click **Create** to initiate the creation of the list in the **Quiz Site**.<p> <img src="images/image011.png" />
-Net outcome should be the list created as shown below –<p> <img src="images/image012.png" />
+<br>Net outcome should be the list created as shown below –<p> <img src="images/image012.png" />
 1. Next, we need to again rename the Display Name for the column name **Title** to **Option 1**. To do this follow the screenshot below –<p> <img src="images/image013.png" /><p> <img src="images/image014.jpg" />
-Net Result should look as shown below -<p> <img src="images/image015.png" />
+<br>Net Result should look as shown below -<p> <img src="images/image015.png" />
 
 #### List2: User Quiz Data
 
