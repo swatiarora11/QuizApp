@@ -2,15 +2,17 @@
 
 ## Quiz App Overview
 Quiz App is a Teams Power Apps designed for end users to facilitate learning, gaining, and improving their knowledge skills. At the meantime, our app provides them fun so that the users can take short quizzes using portable devices such as smart phones and tablets accessing through Teams canvas.
-<br>
-It is also a simple and interactive application and useful for the preparation of any field test. In this app, questions are given along with four choices, and at the end, the correct answer is also displayed. After preparation, one can check their level of know-how on the subject through the quiz.
+<div>
+It is also a simple and interactive application and useful for the preparation of any field test. In this app, questions are given along with four choices, and at the end, the correct answer is also displayed. After preparation, one can check their level of know-how on the subject through the quiz. </div>
 
 ## Core Scenario
 ### Home: 
 This is the app landing page that is displayed to the users once they login to the app.
 
 ### View Instructions: 
-On the Home page, the user is asked to view the Quiz instructions.End User can view the Quiz instructions and then clicking on “Take Quiz” will directly take them to Questions Screen.
+On the Home page, the user is asked to view the Quiz instructions.
+
+End User can view the Quiz instructions and then clicking on “Take Quiz” will directly take them to Questions Screen.
 
 ### Take Quiz: 
 End-user clicks on the “Take Quiz” button to go to the Questions Screen. Every Question will be multiple choice Question where the user can select the answer by clicking on the radio button. Correctness of the answer will be displayed to the user once he makes his choice.
