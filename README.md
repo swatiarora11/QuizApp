@@ -32,27 +32,27 @@ To begin, you will need:
 #### List1: Quiz Data
 This list contains the question bank that we will import from an Excel template (available in the Deployment folder of this repository). *Please ensure to save this Excel file in a folder in your OneDrive for Business.*
 Follow the below steps to create this list from the Excel file -
-1. Open *“Lists”* from the Office 365 Portal as shown below.
+1. Open *Lists* from the Office 365 Portal as shown below.
 <p> <img src="images/image003.jpg" />
-1. Select *“New List”*.
+1. Select *New List*.
 <p> <img src="images/image004.jpg" />
-1. Select *“From Excel”* to import the list from the Excel file.
+1. Select *From Excel* to import the list from the Excel file.
 <p> <img src="images/image005.jpg" />
-1. Select the file from the OneDrive for Business folder path and select *“Next”*.
+1. Select the file from the OneDrive for Business folder path and select *Next*.
 <p> <img src="images/image006.jpg" />
-1. You will see a *“Loading Tables”* message on pressing *Next* and it will thereafter load the table as shown below.
+1. You will see a *Loading Tables* message on pressing *Next* and it will thereafter load the table as shown below.
 <p> <img src="images/image007.jpg" />
 1. In above, we need to change the *Header field* for *Option 1* to *Title*. Note the change in below screenshot.
 <p> <img src="images/image008.jpg" />
-The list should now look as shown below – Select *“Next”* once this is done.
+The list should now look as shown below – Select *Next* once this is done.
 <p> <img src="images/image009.jpg" />
 1. Set a *Name and Description* for the quiz. You may also set a color and icon (Optional)
 <p> <img src="images/image010.jpg" />
-1. In the *“Save To”* option, we now need to point to the *“Quiz” Site* (which was created in *Step 1*) where this list must be deployed. Select this and click *“Create”* to initiate the creation of the list in the *Quiz Site*.
+1. In the *Save To* option, we now need to point to the *Quiz” Site* (which was created in *Step 1*) where this list must be deployed. Select this and click *Create* to initiate the creation of the list in the *Quiz Site*.
 <p> <img src="images/image011.jpg" />
 Net outcome should be the list created as shown below –
 <p> <img src="images/image012.jpg" />
-1. Next, we need to again rename the Display Name for the column name *“Title”* to *“Option 1”*. To do this follow the screenshot below –
+1. Next, we need to again rename the Display Name for the column name *Title* to *Option 1*. To do this follow the screenshot below –
 <p> <img src="images/image013.jpg" />
 <p> <img src="images/image014.jpg" />
 Net Result should look as shown below -
