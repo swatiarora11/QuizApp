@@ -94,7 +94,7 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 1. Click on Apps in the left side pane and click on **Import canvas app**.<p> <img src="images/image020.jpg" />
 1. Import the package zip file.
 1. Click on the wrench icon present under **Action** label to change name of the app. Change name of the app to **QuizApp** and click on **Save**.<p> <img src="images/image021.jpg" />
-1. Click on **Import** button at bottom.<p> <img src="images/image022.jpg" />
+1. Click on **Import** button at bottom.<p> <img src="images/image022.png" />
 1. You will see a successful messsage after importing the app.
 
 #### Step 4: Edit Data source
