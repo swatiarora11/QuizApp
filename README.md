@@ -46,7 +46,7 @@ From Sharepoint Online, create a **Team Site** named as **Quiz**.
 * Set _Option1_ to _Title_
 * Set _SNo._ to _Number_
 * Set _Question_ to _Multiple lines of text_.
-<br>The columns should appear as shown below. Once you’re doing with this, click **Create**.<p> <img src="images/image009.jpg" />
+<br><br>The columns should appear as shown below. Once you’re doing with this, click **Create**.<p> <img src="images/image009.jpg" />
 <br>Once created the **List** should look as shown below -<p> <img src="images/image010.png" />
 7. Next, we need to rename the column name **Title** to **Option1**. To do this follow the screenshot below –<p> <img src="images/image011.jpg" /><p> <img src="images/image012.jpg" />
 <br>Net Result should look as shown below -<p> <img src="images/image013.jpg" />
