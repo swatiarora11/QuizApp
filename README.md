@@ -129,7 +129,7 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 <br>**Important Note –**
 * The Time field shows the time in **seconds** format.
 * The columns which show 36000 secs indicate that a user has closed / refreshed the app, while taking the quiz, hence may be disqualified. Make sure to remove these user entries by Removing Duplicates.
-3. **Finding the Winner - **
+3. **Finding the Winner -**
 <br>One of the approaches to get the winner is by using a **Custom Sort** on the final data (post removing Duplicates).<p> <img src="images/image083.jpg" />
 <br>**Sort condition –**
 * Score – Largest to Smallest; and
