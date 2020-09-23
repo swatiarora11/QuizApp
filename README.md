@@ -48,9 +48,9 @@ From Sharepoint Online, create a **Team Site** named as **Quiz**.
 * Set _Question_ to _Multiple lines of text_.
 <br>The columns should appear as shown below. Once you’re doing with this, click **Create**.<p> <img src="images/image009.jpg" />
 <br>Once created the **List** should look as shown below -<p> <img src="images/image010.png" />
-1. Next, we need to rename the column name **Title** to **Option1**. To do this follow the screenshot below –<p> <img src="images/image011.jpg" /><p> <img src="images/image012.jpg" />
+7. Next, we need to rename the column name **Title** to **Option1**. To do this follow the screenshot below –<p> <img src="images/image011.jpg" /><p> <img src="images/image012.jpg" />
 <br>Net Result should look as shown below -<p> <img src="images/image013.jpg" />
-1. Select **Option1** column and Drag & Drop the column before **Option2** for better readability of the list.<p> <img src="images/image014.jpg" />
+8. Select **Option1** column and Drag & Drop the column before **Option2** for better readability of the list.<p> <img src="images/image014.jpg" />
 <br>The list should now look as below –<p> <img src="images/image015.jpg" />
 
 #### List2: User Quiz Data
@@ -65,7 +65,7 @@ QIndex				| Number				| Serial Number
 Question			| Multiple line of text	| Captures the Question attempted by the user.
 SubmittedAnswer		| Single Line of text	| Captures the response to the question by the user.
 Score				| Number				| Net score based on the answer to the question
-1. Rename the **Title** column to **Email**.<p> <img src="images/image017.jpg" /><p> <img src="images/image018.jpg" /><br>Net Result will look as shown below –<p> <img src="images/image019.png" />
+4. Rename the **Title** column to **Email**.<p> <img src="images/image017.jpg" /><p> <img src="images/image018.jpg" /><br>Net Result will look as shown below –<p> <img src="images/image019.png" />
 
 #### List3: User Quiz Summary
 
@@ -79,7 +79,7 @@ Name				| Single line of text	| Captures the full name of the user.
 Score				| Number 				| Score of the Quiz taken by User
 Status				| Yes/No				| Status of Quiz is taken by the user
 Time				| Number				| Time captured to attempt the Quiz in seconds
-1. Rename the **Title** column to **Email**.<p> <img src="images/image017_1.jpg" /><p> <img src="images/image018.jpg" /><br>Net Result will look as shown below –<p> <img src="images/image019_1.png" />
+4. Rename the **Title** column to **Email**.<p> <img src="images/image017_1.jpg" /><p> <img src="images/image018.jpg" /><br>Net Result will look as shown below –<p> <img src="images/image019_1.png" />
 
 #### Step 3: Import Package in Power Apps using zip file
 1. Navigate to Power Apps https://make.powerapps.com/
