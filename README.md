@@ -135,7 +135,7 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 * Score – Largest to Smallest; and
 * Time – Smallest to Largest
 <p> <img src="images/image084.png" />
-<br>**Final Winners – Pick top 3 or 5 winners, as per your choice.**<p> <img src="images/image085.png" />
+<br> **Final Winners – Pick top 3 or 5 winners, as per your choice.** <p> <img src="images/image085.png" />
 
 
  
