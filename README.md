@@ -122,4 +122,20 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 1. Next add this App to the **App Setup Policies**, which in turn will make the app visible to all users in the Teams user interface. To add this for all users, select the Global Policy.<p> <img src="images/image076.jpg" /><p> <img src="images/image077.jpg" />
 1. Now set the sequence to make the app visible to each user. We recommend to pin the app in the top 5, so that it is easily visible to end users on each client. Hit **Save** to make this change.<p> <img src="images/image079.jpg" />
 <br>That’s it! You will now see the Quiz App pinned on every user’s Teams App experience and you can run the quiz successfully.
+
+## How to Obtain Quiz Results
+1. Post the quiz deadline, navigate to the **UserQuizSummary** list created in above steps, in the **Quiz Team Site**.
+1. Select **Export to Excel** option. This will download a **query.iqy** file. Open this file and follow the steps to obtain the Excel list with the quiz results.<p> <img src="images/image080.png" /><p> <img src="images/image081.jpg" /><p> <img src="images/image082.png" />
+<br>**Important Note –**
+* The Time field shows the time in **seconds** format.
+* The columns which show 36000 secs indicate that a user has closed / refreshed the app, while taking the quiz, hence may be disqualified. Make sure to remove these user entries by Removing Duplicates.
+3. **Finding the Winner - **
+<br>One of the approaches to get the winner is by using a **Custom Sort** on the final data (post removing Duplicates).<p> <img src="images/image083.jpg" />
+<br>**Sort condition –**
+* Score – Largest to Smallest; and
+* Time – Smallest to Largest
+<p> <img src="images/image084.png" />
+<br>**Final Winners – Pick top 3 or 5 winners, as per your choice.**<p> <img src="images/image085.png" />
+
+
  
