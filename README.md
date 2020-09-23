@@ -118,7 +118,7 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 #### Step 7: Adding App to Teams via Teams Admin Center
 1. We will now pin the app to the Teams App for all users. This can be done via the Teams Admin Center.<p> <img src="images/image072.jpg" /><p> <img src="images/image073.jpg" />
 <br>Net result once upload is complete should be – Admin can easily find the **Quiz App** under the **Manage Apps** tab, as shown below<p> <img src="images/image074.jpg" />
-<br>_**NOTE – Ensure that Custom App policy permission has been enabled under Permission Policies.**_<p> <img src="images/image075.jpg" />
+<br>_**NOTE – Ensure that Custom App policy permission has been enabled under Permission Policies.**_<p> <img src="images/image075.png" />
 1. Next add this App to the **App Setup Policies**, which in turn will make the app visible to all users in the Teams user interface. To add this for all users, select the Global Policy.<p> <img src="images/image076.jpg" /><p> <img src="images/image077.jpg" />
 1. Now set the sequence to make the app visible to each user. We recommend to pin the app in the top 5, so that it is easily visible to end users on each client. Hit **Save** to make this change.<p> <img src="images/image079.jpg" />
 <br>That’s it! You will now see the Quiz App pinned on every user’s Teams App experience and you can run the quiz successfully.
