@@ -105,7 +105,13 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 1. Make the App personal by also adding your Company Name and Logo to the App. Select the Label2_4 in the app and edit the **Text** field as shown –<p> <img src="images/image028.png" />
 <br>You may also insert a small image / logo to be placed next to the organization name –<p> <img src="images/image029.png" />
 
-#### Step 5: Share Power Apps
+#### Step 5: Set Quiz Active Time Duration
+1. To set the quiz active time, Navigate to **Welcome Screen** in the **Edit App** page and select **On Visible** Property of the **Welcome Screen** from the top left dropdown.<p> <img src="images/image029_1.jpg" />
+1. Set **QuizStartTime** to date and time when quiz should be live in IST **mm/dd/yyyy hh:mm AM/PM** format.<p> <img src="images/image029_2.jpg" />
+1. Set **QuizEndTime** to date and time when quiz should end in IST **mm/dd/yyyy hh:mm AM/PM** format.<p> <img src="images/image029_3.jpg" />
+1. Now **QuizApp** is ready to be published and shared within your organization.
+
+#### Step 6: Share Power Apps
 1. Once the required changes are made in above steps, click on **File >> Save** the app. Thereafter **Publish** the app.
 1. Once the app is published, Admin needs to share the app to all individuals who will be using the app. You will get a Share option as soon as you publish the app and if you wish to share the app at this time, **jump to point 6**. Else proceed to **Point 3**.
 1. Open https://make.preview.powerapps.com/
@@ -113,13 +119,13 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 1. Click on 3 dots (Options) for your app and click on **Share**.<p> <img src="images/image030.jpg" />
 1. Enter the **group name** containing the users in the popup and click on **Share**. You can also add additional members if needed. This permission is required to grant access to the **QuizApp**.<p> <img src="images/image031.jpg" />
 
-#### Step 6: Export Teams Package
+#### Step 7: Export Teams Package
 1. Open https://make.preview.powerapps.com/
 1. Go to Apps menu in the left menu bar and you will be able to see the app you have imported.
 1. Click on 3 dots (Options) for your app and click on **Add to Teams**.<p> <img src="images/image032.jpg" />
 1. Click on **Download App** in the popup to download a zip package.
 
-#### Step 7: Adding App to Teams via Teams Admin Center
+#### Step 8: Adding App to Teams via Teams Admin Center
 1. We will now pin the app to the Teams App for all users. This can be done via the Teams Admin Center.<p> <img src="images/image072.jpg" /><p> <img src="images/image073.jpg" />
 <br>Net result once upload is complete should be – Admin can easily find the **Quiz App** under the **Manage Apps** tab, as shown below<p> <img src="images/image074.jpg" />
 <br>_**NOTE – Ensure that Custom App policy permission has been enabled under Permission Policies.**_<p> <img src="images/image075.png" />
