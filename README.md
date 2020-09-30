@@ -142,7 +142,7 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 3. **Finding the Winner -**
 <br>One of the approaches to get the winner is by using a **Custom Sort** on the final data (post removing Duplicates).<p> <img src="images/image083.jpg" />
 <br>**Sort condition –**
-* Score – Largest to Smallest; and
+* Score – Largest to Smallest; and 
 * Time – Smallest to Largest
 <p> <img src="images/image084.png" />
 <br>Final Winners - Pick top 3 or 5 winners, as per your choice.
