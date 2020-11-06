@@ -155,16 +155,19 @@ We are using following sharepoint lists of **Quiz** site for storing QuizApp dat
 * UserQuizData - random set of questions presented to each user and their submitted answers
 * UserQuizSummary - user wise quiz summary (status, time taken and total score)
 
-By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
+By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. 
+
+But before we do that, let us open these three lists one by one from **Site Contents** section of **Quiz Site** and save their URLs to a text file. You can share these saved list URLs with administrators for quiz data management after we hide all the three lists.
 
 ### Hide Quiz Lists
 Now, for hiding these lists, follow below steps -
 1. Go to the **Navigation Elements** section of **Site Settings** and uncheck both **Enable Quick Launch** and **Enable Tree View** checkboxes as shown in the below snapshot.
-<br> <img src="images/image0100.png" />
+<br><br> <img src="images/image0100.png" />
 1. Download and install [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
-1. Launch SharePoint Online Management Shell and run command `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` to change the execution policy. Refer this [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7) for details. 
+1. Launch SharePoint Online Management Shell and run following command to change the execution policy. Refer this [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7) for details.
+<br>`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
 1. A powershell script named [ListVisibility.ps1](https://github.com/swatiarora11/QuizApp/blob/master/Deployment/TeamsQuestionBank.xlsx) has also been provided in the Deployment folder contained inside QuizApp package downloaded earlier. 
-1. Using SharePoint Online Management Shell, navigate to the Deployment folder and run following commands -
+1. Using SharePoint Online Management Shell, navigate to the Deployment folder and run following commands:
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true`
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizData" -hidden $true`
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizSummary" -hidden $true`
