@@ -154,9 +154,9 @@ We are using following sharepoint lists of **Quiz** site for storing QuizApp dat
 <br>**UserQuizData** - random set of questions presented to each user and their submitted answers
 <br>**UserQuizSummary** - user wise quiz summary (status, time taken and total score)
 
-<br><br>By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
+By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
 
-<br><br> Now, for hiding the lists, follow below steps -
+Now, for hiding the lists, follow below steps -
 1. Go to the **Navigation Elements** section of **Site Settings** and uncheck both **Enable Quick Launch** and **Enable Tree View** checkboxes as shown in the below snapshot.
 <br> <img src="images/image0100.png" />
 1. Download and install [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
@@ -166,4 +166,4 @@ We are using following sharepoint lists of **Quiz** site for storing QuizApp dat
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true`
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizData" -hidden $true`
 * `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizSummary" -hidden $true`
-1. If above mentioned commands were executed successfully, none of the users will be able to see these lists in **Site Contents** section now. Please note that quiz administrators can now use list urls provided to them for quiz data management. 
+6. If above mentioned commands were executed successfully, none of the users will be able to see these lists in **Site Contents** section now. Please note that quiz administrators can now use list urls provided to them for quiz data management. 
