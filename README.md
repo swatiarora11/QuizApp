@@ -167,8 +167,8 @@ Now, for hiding these lists, follow below steps -
 1. Launch SharePoint Online Management Shell and run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` command to change the execution policy. Refer this [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7) for details.
 1. A powershell script named [ListVisibility.ps1](https://github.com/swatiarora11/QuizApp/blob/master/Deployment/TeamsQuestionBank.xlsx) has also been provided in the Deployment folder contained inside QuizApp package downloaded earlier. 
 1. Using SharePoint Online Management Shell, navigate to the Deployment folder and run following commands:
-<br>
-```.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true
+```
+.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true
 .\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizData" -hidden $true
 .\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizSummary" -hidden $true
 ```
