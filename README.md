@@ -165,10 +165,10 @@ Now, for hiding these lists, follow below steps -
 <br><br> <img src="images/image0100.png" />
 1. Download and install [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
 1. Launch SharePoint Online Management Shell and run following command to change the execution policy. Refer this [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7) for details.
-<br>`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
+<br><br>`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
 1. A powershell script named [ListVisibility.ps1](https://github.com/swatiarora11/QuizApp/blob/master/Deployment/TeamsQuestionBank.xlsx) has also been provided in the Deployment folder contained inside QuizApp package downloaded earlier. 
-1. Using SharePoint Online Management Shell, navigate to the Deployment folder and run following commands:
-* `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true`
-* `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizData" -hidden $true`
-* `.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizSummary" -hidden $true`
+1. Using SharePoint Online Management Shell, navigate to the Deployment folder and run following commands:<br><br>
+`.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "QuizData" -hidden $true`
+`.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizData" -hidden $true`
+`.\ListVisibility.ps1 -admin "<sp_admin_account>" -site "<quiz_site_url>" -list "UserQuizSummary" -hidden $true`
 6. If above mentioned commands were executed successfully, none of the users will be able to see these lists in **Site Contents** section now. Please note that quiz administrators can now use list urls provided to them for quiz data management. 
