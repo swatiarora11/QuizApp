@@ -149,10 +149,10 @@ Time				| Number				| Time captured to attempt the Quiz in seconds
 <p> <img src="images/image085.png" />
 
 ## Quiz Data Security 
-<p> We are using following sharepoint lists of **Quiz** site for storing QuizApp data - 
-* QuizData - question bank for the Quiz
-* UserQuizData - random set of questions presented to each user and their submitted answers
-* UserQuizSummary - user wise quiz summary (status, time taken and total score)
+<p> We are using following sharepoint lists of **Quiz** site for storing QuizApp data:
+<p>**QuizData** - question bank for the Quiz
+<p>**UserQuizData** - random set of questions presented to each user and their submitted answers
+<p>**UserQuizSummary** - user wise quiz summary (status, time taken and total score)
 
 <p> <p> By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
 
