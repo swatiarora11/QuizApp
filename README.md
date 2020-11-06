@@ -154,11 +154,11 @@ We are using following sharepoint lists of **Quiz** site for storing QuizApp dat
 <br>**UserQuizData** - random set of questions presented to each user and their submitted answers
 <br>**UserQuizSummary** - user wise quiz summary (status, time taken and total score)
 
-<p> <p> By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
+<br><br>By default, sharepoint lists and libraries are visible to all organization users. In case of QuizApp, we would like to hide these lists from all users. But before we do that, let us open these lists one by one from **Site Contents** section of **Quiz** site and save list urls to a text file. You can share these saved list urls with administrators for quiz data management after we hide all the lists.
 
-<p> Now, for hiding the lists, follow below steps -
+<br><br> Now, for hiding the lists, follow below steps -
 1. Go to the **Navigation Elements** section of **Site Settings** and uncheck both **Enable Quick Launch** and **Enable Tree View** checkboxes as shown in the below snapshot.
-<p> <img src="images/image0100.png" />
+<br> <img src="images/image0100.png" />
 1. Download and install [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
 1. Launch SharePoint Online Management Shell and run command `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` to change the execution policy. Refer this [link](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7) for details. 
 1. A powershell script named [ListVisibility.ps1](https://github.com/swatiarora11/QuizApp/blob/master/Deployment/TeamsQuestionBank.xlsx) has also been provided in the Deployment folder contained inside QuizApp package downloaded earlier. 
